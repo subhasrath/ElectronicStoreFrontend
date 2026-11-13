@@ -6,7 +6,7 @@ import { Login } from './pages/login/login';
   selector: 'app-root',
   imports: [Login],
   templateUrl: './app.html',
-  styleUrl: './app.css'
+  styleUrl: './app.css',
 })
 export class App implements OnInit{
   protected readonly title = signal('ElectronicStore');
