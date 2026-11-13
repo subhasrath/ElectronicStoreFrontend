@@ -4,7 +4,7 @@ import { initFlowbite } from 'flowbite';
 import { Login } from './pages/login/login';
 @Component({
   selector: 'app-root',
-  imports: [Login],
+  imports: [Login, RouterOutlet],
   templateUrl: './app.html',
   styleUrl: './app.css',
 })
